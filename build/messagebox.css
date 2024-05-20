@@ -1,0 +1,125 @@
+
+.messageDiv{
+    margin: 5px;
+    min-width: 310px;
+    max-width: 400px;
+    min-height: 310px;
+    padding-top: 50px;
+   
+}
+
+.posMessage{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 500px;
+}
+.divy{
+    max-width: 310px;
+
+}
+
+.inputBar{
+    min-width: 280px;
+    height: 37px;
+    margin-top: 10px;
+    border: 3px solid #D5F0C1;
+    outline-color: #AAD9BB;
+    padding-left: 13px;
+    border-radius: 15px;
+    color: #80BCBD;
+    font-family: AileronThin;
+    font-size: 16px;
+ }
+ .inputBar::placeholder {
+   font-family: AileronThin;
+   color: #80BCBD;
+ }
+
+.inptMessage{
+   height: 70px;
+   border-radius: 21px;
+   font-family: AileronThin;
+}
+
+.btn{
+    width: 100px;
+    height: 35px;
+    border-radius: 15px;
+    border: 3px solid #AAD9BB;
+    outline-color: #AAD9BB;
+    color: #80BCBD;
+    background-color: transparent;
+    margin-top: 3px;
+    margin-left: 2px;
+}
+ 
+.status{
+    font-family: AileronThin;
+    margin: 0px;
+    margin-left: 5px;
+    color: #80BCBD;
+}
+.statusDiv{
+    height: 18px;
+    width: 200px
+}
+
+
+
+@media only screen and (min-width: 500px){
+    .messageDiv{
+        min-width: 410px;
+        max-width: 500px;
+        min-height: 310px;
+    }
+    .divy{
+        min-width: 420px;
+    }
+    .inputBar{
+        min-width: 400px;
+        height: 45px;
+    }
+    .inptMessage{
+        height: 100px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+}
+
+
+@media only screen and (min-width: 1000px){
+    .messageDiv{
+        min-width: 410px;
+        max-width: 700px;
+        min-height: 310px;
+    }
+    .divy{
+        min-width: 620px;
+    }
+    .inputBar{
+        min-width: 600px;
+        height: 45px;
+        font-size: 18px;
+    }
+    .inptMessage{
+        height: 130px;
+        font-size: 18px;
+    }
+    .btn{
+        width: 120px;
+        height: 40px;
+    }
+    .status{
+        font-size: 20px;
+    }
+    .statusDiv{
+        width: 500px;
+        height: 23px;
+    }
+    .posMessage{
+      min-height: 700px;
+    }
+}
