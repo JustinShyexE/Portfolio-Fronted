@@ -10,7 +10,7 @@ const __filename = fileURLToPath(import.meta.url); // get the resolved path to t
 const __dirname = path.dirname(__filename);
 
 const app = express();
-const port= 5000;
+const port= 3000;
 env.config();
 
 const db = new pg.Client({
