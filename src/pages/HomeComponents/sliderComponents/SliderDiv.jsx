@@ -9,7 +9,7 @@ function SliderDiv(props){
            <img  height={"50px"} width={"50px"} src={props.src} alt="any"  />
         </div>
         <div className="center">
-       <h3 className="logoName">{props.name}</h3>
+       <h3 className="logoName" style={{color: props.color}}>{props.name}</h3>
        </div>
     </div>)
 }

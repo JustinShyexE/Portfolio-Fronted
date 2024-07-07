@@ -5,7 +5,6 @@ body{
     display: flex;
     flex-direction: column;
     min-height: 100vh;
-    background-color: #F9F7C9;
     background-image: url("https://www.transparenttextures.com/patterns/grunge-wall.png");
     min-width: 320px;
 }
@@ -61,12 +60,13 @@ body{
 
 .photoDiv{
     border-radius: 50%;
-    border: 5px solid #AAD9BB;
-    background-image: url("https://tse1.mm.bing.net/th/id/OET.7252da000e8341b2ba1fb61c275c1f30?w=594&h=594&c=7&rs=1&o=5&pid=1.9");
+    border: 1.5px solid;
+    background-image: url("./iustin.JPG");
     width: 225px;
     height: 225px;
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 100%
 }
 
 
@@ -163,7 +163,7 @@ body{
         font-size: 39px;
      }
     .boody{
-        height:750px;
+        height:700px;
     }
 }
 
@@ -173,7 +173,7 @@ body{
         flex-direction: row-reverse;
         justify-content: center;
         align-items: center;
-        height: 1000px;
+        height: 950px;
     }
     .photoDiv{
         margin-left: 20px;
@@ -270,7 +270,7 @@ body{
 
 @media only screen and (min-width: 2560px){
     .boody{
-        height: 1200px;
+        height: 1150px;
     }
     .slider{
         max-width: 1600px;

@@ -41,11 +41,11 @@
     font-family: AileronThin;
     margin: 0px;
     font-size: 40px;
-    color:#80BCBD;;
+    color:#80BCBD;
     margin-left: 10%;
     animation-duration: 2s;
     animation-name: proj;
-    animation-timeline:view(150px);
+    animation-timeline:view(0px);
 }
 
 @keyframes proj{
@@ -60,8 +60,6 @@
 .me{
     animation-timeline: view(50px 0px);
 }
-
-
 
 
 .anmPhoto{

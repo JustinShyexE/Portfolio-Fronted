@@ -57,7 +57,31 @@ const aShop=[
             }
             
 ]
-
+const restaurant=[
+  {
+    id:0,
+    name: "React",
+    icon: react,
+  }, {
+    id:1,
+    name: "ExpressJs",
+    icon: "https://inapp.com/wp-content/uploads/2023/01/express.png",
+},  {
+  id:2,
+  name: "HTML",
+  icon: html,
+},
+{
+  id:3,
+  name: "Css",
+  icon: css,
+},
+{
+    id:4,
+    name: "JavaScript",
+    icon: js,
+  },
+]
 
 const carShop=[
     {
@@ -95,4 +119,4 @@ const carShop=[
 ]
 
 
-export {aShop, carShop};
+export {aShop, carShop, restaurant};

@@ -1,7 +1,9 @@
 import React from "react";
 import { useState } from "react";
 
-function Message(){
+
+
+function Message(props){
 
     const [data, setData] =useState({
         name:"",
@@ -23,7 +25,7 @@ function Message(){
           msg:""
          })
 
-        await fetch("http://localhost:5000/message",{
+        await fetch("/message",{
         method: 'POST',
         headers: {
           'Content-Type': 'application/json'
@@ -41,22 +43,22 @@ function Message(){
             else if(name==="msg") return {name:prevValue.name, email:prevValue.email, msg:value}
         })
      }
-
+  console.log("this isss" , props.color)
 
     return(
   <div className="posMessage">
     <div className="messageDiv">
     <div className="divy">
-      <input name="name" className="inputBar fadeIn in" onChange={handleChange} value={data.name} placeholder="Name" type="text" />
-      <input name="email" className="inputBar fadeIn in" onChange={handleChange} value={data.email} placeholder="Email" type="text" />
-      <textarea name="msg" className="inputBar inptMessage fadeIn in" onChange={handleChange} value={data.msg} placeholder="Message" />
+      <input name="name" className="inputBar fadeIn in" onChange={handleChange} value={data.name} placeholder="Name" type="text" style={{borderColor:props.ft, color: props.color, outlineColor: props.border, '--placeholder-color': props.color, textTransform: "capitalize" }} />
+      <input name="email" className="inputBar fadeIn in" onChange={handleChange} value={data.email} placeholder="Email" type="text" style={{borderColor:props.ft, color: props.color, outlineColor: props.border, '--placeholder-color': props.color }} />
+      <textarea name="msg" className="inputBar inptMessage fadeIn in" onChange={handleChange} value={data.msg} placeholder="Message" style={{borderColor:props.ft, color: props.color, outlineColor: props.border, '--placeholder-color': props.color }} />
      <div className="statusDiv">
        {status?
-        <p className="status">Message sent succesfully!</p>
+        <p className="status" style={{color: props.color}}>Message sent succesfully!</p>
         :null
        }
       </div>
-       <button className="btn" onClick={submit}> Send</button>
+       <button className="btn" onClick={submit} style={{borderColor:props.ft, color: props.color, outlineColor: props.border}}> Send</button>
      </div>
     </div>
    </div>  

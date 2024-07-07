@@ -1,16 +1,17 @@
 import React from "react";
 
 
-function Introduction(){
+function Introduction(props){
    return(
    <div className="intWrapPosition">
     <div className="intWrap anmSize">
     <div className="introduction anmTitle">
-        <h1   id="font-aileronHeavy">Hi, I'm Justin. I'm a Fullstack Developer!</h1>
+        <h1   id="font-aileronHeavy" style={{color: props.color}}>Hi, I'm Justin. I'm a Fullstack Developer!</h1>
      </div>
     <div className="content anmCont">
-    <h3 id="font-aileronThin">I'm very passionate about coding, really confident in the own skills, with a lot patience during coding. I put a lot of dedication to learn to code and open minded about
-        learning new staff.</h3>
+    <h3 id="font-aileronThin" style={{color: props.color}}>
+    I am passionate about coding and confident in my skills. I approach coding with patience and dedication, continuously striving to improve. I am open-minded and eager to learn new technologies and techniques.
+    </h3>
     </div>  
     </div>
     </div>

@@ -2,10 +2,10 @@ import React from "react";
 
 
 
-function Frame(){
+function Frame(props){
       return(
         <div className="start center"  style={{minWidth:"320px", minHeight:"350px" }}>
-        <div className="photoDiv anmPhoto">  
+        <div className="photoDiv anmPhoto" style={{borderColor: props.color}}>  
         </div>
         </div>
       )

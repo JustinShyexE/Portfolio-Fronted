@@ -1,25 +1,39 @@
 import React from "react";
-import css from "../images/css.png"
-import gmail from "../images/gmail.png"
-import phone from "../images/phone.png"
-import git from "../images/github.png"
+import gmail from "../images/gmail.png";
+import phone from "../images/phone.png";
+import git from "../images/github.png";
 
-function Footer(){
-    return(<div className="ft center">
-         <a href="https://gmail.com/"  className="contactBox fadeIn ">
-            <img alt="" src={gmail} className="contactImg" />
-            <p className="gmail center">bacaila.iustin.andrei@gmail.com</p>
-         </a>
-         <a href="tel:07442569505"   className="contactBox fadeIn">
-            <img alt="" src={phone} className="contactImg" />
-            <p className="gmail center">+7442569505</p>
-         </a>
-         <a href="https://github.com/ShyexEE"   className="contactBox fadeIn">
-            <img alt="" src={git} className="contactImg" />
-            <p className="gmail center">ShyexEE</p>
-         </a>
-    </div>)
+function Footer(props) {
+  return (
+    <div className="ft center" style={{ paddingBottom: "10px", backgroundColor:props.ft}}>
+      <a href="https://mail.google.com/mail/u/0/#inbox?compose=CllgCJNsLfsPMJgFTVczKWMJFdkHhqGBnxwSGbNRrWBggHdpSvKmtWFpPhpXgzmGHBbvWrqtpfg">
+        {" "}
+        <div className="contactBox fadeIn ">
+          <img alt="" src={gmail} className="contactImg" />
+          <p className="gmail center" style={{ color: props.color}}>iustin.bacaila25@gmail.com</p>
+        </div>
+      </a>
+      <a href="tel:07442569505">
+        {" "}
+        <div className="contactBox fadeIn">
+          <img alt="" src={phone} className="contactImg" />
+          <p className="gmail center" style={{ color: props.color}}>07442569505</p>
+        </div>
+      </a>
+      <a href="https://github.com/ShyexEE">
+        {" "}
+        <div className="contactBox fadeIn">
+          <img alt="" src={git} className="contactImg" />
+          <p className="gmail center" style={{ color: props.color}} >ShyexEE</p>
+        </div>
+      </a>
+      <div className="contactBox fadeIn">
+        <p className="gmail center" style={{ color: props.color}}>
+          © 2024 Iustin Bacaila. All rights reserved.
+        </p>
+      </div>
+    </div>
+  );
 }
 
-
-export default Footer
+export default Footer;

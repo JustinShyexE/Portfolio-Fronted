@@ -1,5 +1,5 @@
 import React from "react";
-import { useState } from "react";
+import { useState} from "react";
 import Playbutton from "./laptopCmpnt/Playbutton";
 import Mutebutton from "./laptopCmpnt/Mutebutton";
 
@@ -12,6 +12,7 @@ function AppleLaptopDiv(props){
     function MouseOverOFF(){
         setHover(false)
     }
+   
 
    return (
     <div className="appleDiv" >
@@ -19,7 +20,7 @@ function AppleLaptopDiv(props){
           <img alt="" width={"100%"} height={"100%"} src="https://dennissnellenberg.com/assets/img/device-mbp-16-lower-nonotch.png" />
           <div onMouseOver={MouseOverON} onMouseLeave={MouseOverOFF} className="child">
             <video id={props.idd} controls="" style={{width:"100%", height: "100%"}} src={props.video}
-              muted="muted" loop="loop" autoPlay="" /> 
+              muted="muted" loop="loop" autoPlay="autplay" playsInline /> 
             <span>
              {hover?
              <div>
@@ -33,6 +34,5 @@ function AppleLaptopDiv(props){
     </div>
    )
 }
-
 
 export default AppleLaptopDiv;

@@ -5,6 +5,10 @@
     justify-content: center;
     align-items: center;
 }
+.undrln{
+    text-decoration: underline;
+    text-decoration-color: white;
+}
 
 .parent{ 
     height: 183px;
@@ -25,11 +29,13 @@
     top: -90px;
     left: 110px;
     width: fit-content;
+    cursor: pointer;
 }
 .soundButton{
     position: relative;
     top: -75px;
     left: 5px;
+    cursor: pointer;
 }
 @media only screen and (min-width: 500px){
     .parent{ 
