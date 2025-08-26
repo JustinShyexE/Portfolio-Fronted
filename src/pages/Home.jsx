@@ -117,7 +117,7 @@ function Home() {
       <div className="firstDiv fadeIn">
         <div className="laptopTitlePost">
           <div>
-            <a href="https://restaurant-grsv.onrender.com/" className="undrln">
+            <a href="https://restaurant-frontend-gamma-seven.vercel.app/" className="undrln">
               <h3 className="dscTitle" style={{ color: theme.text }}>
                 Restaurant Website
               </h3>
