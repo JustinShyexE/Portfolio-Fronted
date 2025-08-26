@@ -20,7 +20,7 @@ function Footer(props) {
           <p className="gmail center" style={{ color: props.color}}>07442569505</p>
         </div>
       </a>
-      <a href="https://github.com/ShyexEE">
+      <a href="https://github.com/JustinShyexE">
         {" "}
         <div className="contactBox fadeIn">
           <img alt="" src={git} className="contactImg" />
