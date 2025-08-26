@@ -130,8 +130,8 @@ function Home() {
           logos="restaurant"
           description="This is a Restaurant Website."
           text="This is a fully responsive website designed for restaurants to promote their food and attract more customers."
-          code="https://github.com/ShyexEE/Restaurant-Website-Code"
-          project="https://restaurant-grsv.onrender.com"
+          code="https://github.com/JustinShyexE/Restaurant-Frontend"
+          project="https://restaurant-frontend-gamma-seven.vercel.app/"
         />
       </div>
 
