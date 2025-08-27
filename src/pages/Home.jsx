@@ -149,7 +149,7 @@ function Home() {
           description="This is an eCommerce website."
           text="aShop it's an eCommerce website that can be used by any entrepreneurs to sell their products online. Users can find their desired product and buy it, after creating an account."
           logos="aShop"
-          code="https://github.com/ShyexEE/aShop-ecommerce-.git"
+          code="https://github.com/JustinShyexE/aShop-Fullstack"
           project="https://ashopp.onrender.com"
         />
       </div>
@@ -157,7 +157,7 @@ function Home() {
       <div className="firstDiv fadeIn">
         <div className="laptopTitlePost">
           <div>
-            <a href="https://porscheshop.onrender.com" className="undrln">
+            <a href="https://porsche-frontend.vercel.app/" className="undrln">
               <h3 className="dscTitle" style={{ color: theme.text }}>Car Shop PorscheV2</h3>
             </a>
             <AppleLaptopDiv key="3" video={video1} idd="Video1" />
@@ -169,8 +169,8 @@ function Home() {
           description="This is a car shop website."
           text="This a FULLY-Responsive Website, that can be used by Porsche themselves to sell their cars. 
           It has a good presentation of the Porsche cars and an option to buy after creating a Porsche account."
-          code="https://github.com/ShyexEE/Car-Shop.git"
-          project="https://porscheshop.onrender.com"
+          code="https://github.com/JustinShyexE/Porsche-Frontend"
+          project="https://porsche-frontend.vercel.app/"
         />
       </div>
 
