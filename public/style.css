@@ -1,6 +1,9 @@
 body{
     margin: 0px;
 }
+html{
+   filter: contrast(1.1) saturate(1.85);
+}
 .mainBody{
     display: flex;
     flex-direction: column;
